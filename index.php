@@ -10,6 +10,9 @@ $dotenv->load();
 // Load database
 require 'db.php';
 
+
+
+
 try {
     $pdo = init_database();
 } catch (PDOException $e) {
